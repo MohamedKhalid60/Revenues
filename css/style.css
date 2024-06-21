@@ -1,0 +1,16 @@
+@import url(vendors/bootstrap.min.css);
+@import url(base/base.css);
+@import url(layout/header.css);
+@import url(layout/nav.css);
+@import url(layout/footer.css);
+@import url(vendors/all.css);
+@import url(vendors/animate.css);
+@import url(vendors/fontawesome.min.css);
+@import url(base/font.css);
+@import url(pages/home.css);
+@import url(pages/about.css);
+@import url(pages/team.css);
+@import url(pages/v-details.css);
+@import url(pages/services.css);
+@import url(pages/book.css);
+@import url(pages/contact.css);

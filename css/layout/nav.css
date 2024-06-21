@@ -1,0 +1,16 @@
+nav li:first-child {
+  list-style: none;
+}
+nav li {
+  color: #027ab7;
+  text-transform: capitalize;
+}
+.navbar-nav .nav-link.active {
+  color: #027ab7;
+  font-family: gotham-medium;
+  font-size: 17px;
+}
+.navbar-nav .nav-link {
+  color: #656565;
+  font-family: gotham-light;
+}

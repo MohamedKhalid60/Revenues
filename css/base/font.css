@@ -1,0 +1,24 @@
+@font-face {
+  font-family: gotham-black;
+  src: url(../fonts/Gotham-Black.eot);
+}
+@font-face {
+  font-family: gotham-bold;
+  src: url(../fonts/Gotham-Bold.eot);
+}
+@font-face {
+  font-family: gotham-bold-ttf;
+  src: url(../fonts/Gotham-Bold.ttf);
+}
+@font-face {
+  font-family: gotham-book;
+  src: url(../fonts/Gotham-Book.eot);
+}
+@font-face {
+  font-family: gotham-light;
+  src: url(../fonts/Gotham-Light.ttf);
+}
+@font-face {
+  font-family: gotham-medium;
+  src: url(../fonts/Gotham-Medium.ttf);
+}

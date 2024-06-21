@@ -1,0 +1,32 @@
+footer h2 {
+  font-size: 24px;
+}
+footer h2::after {
+  right: 20%;
+}
+footer ul li {
+  list-style: none;
+}
+footer .logo img {
+  width: 50%;
+  margin: 10px 0;
+}
+footer ul img {
+  margin-top: 10px;
+}
+footer ul li {
+  font-size: 12px;
+  padding: 4px 0;
+}
+footer {
+  padding-top: 50px;
+  background-color: #ffffff;
+}
+footer .text-footer {
+  padding: 10px;
+  border-top: 2px solid rgba(0, 0, 0, 0.057);
+}
+footer .text-footer p {
+  margin: 0 10px;
+  color: rgba(0, 0, 0, 0.182);
+}

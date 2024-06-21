@@ -1,0 +1,193 @@
+.home {
+  background: transparent url(../../img/lines.svg) 0% 0% no-repeat;
+  height: 750px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+.home h1 {
+  font-weight: bolder;
+  letter-spacing: 0px;
+  font-size: 50px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.home span {
+  padding-left: 5px;
+  color: #0093de;
+  position: relative;
+  font-weight: bold;
+}
+.home h1 .circle::before {
+  content: "";
+  background-image: url(../../img/circle\ note.svg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+  z-index: -1;
+  /* padding: 20px; */
+}
+.home h1 .line::before {
+  content: "";
+  background-image: url(../../img/line.svg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  left: 0;
+  bottom: -30px;
+}
+.home p {
+  color: #6d6d6d;
+  font-size: 17px;
+}
+.home .btn {
+  box-shadow: 10px 10px 35px #0093de80;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+.payment {
+  position: relative;
+}
+.payment .row {
+  position: relative;
+  background-color: #fff;
+  border-radius: 0 30px 30px 0;
+  padding: 30px;
+}
+.payment p {
+  color: #2a2a2abf;
+  font-size: 14px;
+}
+h2 {
+  font-size: 30px;
+  color: #000000;
+  letter-spacing: -2.02px;
+  width: 35%;
+  font-weight: bolder;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+  margin: 30px 0;
+}
+.payment .col-xl-3 p {
+  font-size: 10px;
+  margin: 5px;
+}
+.payment .header-payment li {
+  list-style: none;
+  width: 60px;
+}
+.payment .header-payment ul {
+  position: absolute;
+  left: 100px;
+  top: -55px;
+  border-radius: 0 30px 0 0;
+  background-color: #fff;
+  padding: 20px;
+}
+.different p {
+  font-size: 12px;
+}
+.different span img {
+  width: 12%;
+}
+.different h4 {
+  color: #0093de;
+  margin: 10px 0;
+  font-size: 18px;
+}
+.different .card {
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #effaffca;
+  background-image: url(../../img/Mask\ Group\ 2.svg);
+  background-position: center;
+  background-size: contain;
+  border: none;
+  border-radius: 35px 15px 35px 15px;
+}
+.different .card p {
+  color: #424141;
+  margin: 11px;
+}
+.different h2 {
+  margin-left: auto;
+}
+.shaps img {
+  width: 30px;
+  margin: 20px auto;
+}
+.shaps .card {
+  padding: 20px;
+  background: transparent linear-gradient(304deg, #ffffff 0%, #effaff 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: -10px 10px 50px #0093de1a;
+  border-radius: 50px 25px;
+  border: none;
+}
+.shaps {
+  padding: 40px;
+  background-color: #ffffff;
+  background-image: url(../../img/shapes-1.svg);
+  background-size: contain;
+  background-position: center;
+}
+.shaps h2 {
+  margin: 40px auto;
+  font-size: 34px;
+  width: 200px;
+}
+.shaps h2::after {
+  left: 100px;
+}
+.shaps h4 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.article h2::after {
+  right: 50%;
+  left: 50%;
+}
+.article .name {
+  font-size: 16px;
+  color: #000000;
+  padding: 5px 10px;
+}
+.article .text h4 {
+  font-size: 18px;
+}
+.article .text {
+  padding: 10px 30px;
+}
+.article p {
+  font-size: 10px;
+}
+.article .card {
+  border: none;
+  border-radius: 20px;
+  background: transparent linear-gradient(334deg, #ffffff 0%, #d6effa 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 20px 50px #0093de17;
+}
+.article .card1 {
+  opacity: 0.5;
+}
+.article article {
+  font-size: 12px;
+}
+.article a {
+  color: #027ab7;
+  font-weight: 700;
+  font-size: 12px;
+}
+.article .btn {
+  padding: 14px 22px;
+}
